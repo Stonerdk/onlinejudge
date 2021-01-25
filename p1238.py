@@ -11,7 +11,7 @@ for i in range(N):
 
 for j in range(N):
     for i in range(N):
-        if dist[i][j] != MAX:
+        if dist[j][i] != MAX:
             for k in range(N):
                 dist[k][i] = min(dist[k][i], dist[k][j] + dist[j][i])
 ret = 0
