@@ -29,9 +29,6 @@ for i in range(N):
             L.push(x)
         else:
             R.push(x)
-    print("loop", i, "value : ", x)
-    print(L.queue)
-    print(R.queue)
     sol.append(L.top())
 for s in sol:
     print(s)
